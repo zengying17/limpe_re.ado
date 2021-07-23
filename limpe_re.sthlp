@@ -38,7 +38,7 @@
 {title:Description}
 
 {pstd}
-{cmd:limpe_re} performs the quasi-maximum likelihood estimation for a linear-in-means peer effects model with random group effects, proposed by Kuersteiner, Prucha and Zeng (2021). Robust standard errors, derived from the Huber sandwich estimator are calculated. Factor variables are currently not allowed in independent variables. You should generate dummies before adding them to the model. The program runs slowly when the sample size is large. It is therefore recommended to test your code on a subset of the groups before applying it to the whole sample. This version is created on May 27th,2021. 
+{cmd:limpe_re} performs the quasi-maximum likelihood estimation for a linear-in-means peer effects model with random group effects, proposed by Kuersteiner, Prucha and Zeng (2021). Standard errors are calculated using the procedure desribed in the paper. Factor variables are currently not allowed in independent variables. You should generate dummies before adding them to the model. The program runs slowly when the sample size is large. It is therefore recommended to test your code on a subset of the groups before applying it to the whole sample. This version is created on Jul 20th,2021. 
 
 {marker options}{...}
 {title:Options}
